@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.njones.androidfonthandlingsandbox.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/gutter_width">
+
+            <!-- Acumin Regular-->
+            <TextView
+                style="@style/Font.Regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello World. Regular" />
+
+            <TextView
+                style="@style/Font.Regular.Italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello World. Regular. Italic" />
+
+            <TextView
+                style="@style/Font.Regular.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello World. Regular. Bold" />
+
+            <TextView
+                style="@style/Font.Regular.BoldItalic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello World. Regular. Bold Italic" />
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black" />
+
+            <!--Acumin Medium-->
+            <TextView
+                style="@style/Font.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello World. Medium" />
+
+            <TextView
+                style="@style/Font.Medium.Italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello World. Medium. Italic" />
+
+            <TextView
+                style="@style/Font.Medium.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello World. Medium. Bold" />
+
+            <TextView
+                style="@style/Font.Medium.BoldItalic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello World. Medium. Bold Italic" />
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black" />
+
+            <!-- Acumin Bold-->
+            <TextView
+                style="@style/Font.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello World. Bold." />
+
+            <TextView
+                style="@style/Font.Bold.Italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello World. Bold. Italic" />
+
+            <TextView
+                style="@style/Font.Bold.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello World. Bold. Bold" />
+
+            <TextView
+                style="@style/Font.Bold.BoldItalic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello World. Bold. Bold Italic" />
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black" />
+
+            <!-- Acumin Black-->
+            <TextView
+                style="@style/Font.Black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello World. Black." />
+
+            <TextView
+                style="@style/Font.Black.Italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello World. Black. Italic" />
+
+            <TextView
+                style="@style/Font.Black.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello World. Black. Bold" />
+
+            <TextView
+                style="@style/Font.Black.BoldItalic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello World. Black. Bold Italic" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
